@@ -13,6 +13,8 @@
 		314E67B22AC7101F006586F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 314E67B02AC7101F006586F8 /* Main.storyboard */; };
 		314E67B42AC71021006586F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 314E67B32AC71021006586F8 /* Assets.xcassets */; };
 		314E67B72AC71021006586F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 314E67B52AC71021006586F8 /* LaunchScreen.storyboard */; };
+		31617B822AF29413005F9F49 /* PostsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31617B812AF29413005F9F49 /* PostsTableViewCell.swift */; };
+		31617B842AF2957B005F9F49 /* WhatsInAPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31617B832AF2957B005F9F49 /* WhatsInAPost.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		314E67B32AC71021006586F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		314E67B62AC71021006586F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		314E67B82AC71021006586F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31617B812AF29413005F9F49 /* PostsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsTableViewCell.swift; sourceTree = "<group>"; };
+		31617B832AF2957B005F9F49 /* WhatsInAPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsInAPost.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +63,9 @@
 				314E67AA2AC7101F006586F8 /* AppDelegate.swift */,
 				314E67AC2AC7101F006586F8 /* SceneDelegate.swift */,
 				314E67AE2AC7101F006586F8 /* ViewController.swift */,
+				31617B832AF2957B005F9F49 /* WhatsInAPost.swift */,
 				314E67B02AC7101F006586F8 /* Main.storyboard */,
+				31617B812AF29413005F9F49 /* PostsTableViewCell.swift */,
 				314E67B32AC71021006586F8 /* Assets.xcassets */,
 				314E67B52AC71021006586F8 /* LaunchScreen.storyboard */,
 				314E67B82AC71021006586F8 /* Info.plist */,
@@ -141,6 +147,8 @@
 				314E67AF2AC7101F006586F8 /* ViewController.swift in Sources */,
 				314E67AB2AC7101F006586F8 /* AppDelegate.swift in Sources */,
 				314E67AD2AC7101F006586F8 /* SceneDelegate.swift in Sources */,
+				31617B842AF2957B005F9F49 /* WhatsInAPost.swift in Sources */,
+				31617B822AF29413005F9F49 /* PostsTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
